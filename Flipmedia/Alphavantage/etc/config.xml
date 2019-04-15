@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Flipmedia_Alphavantage>
+			<version>1.0.0</version>
+		</Flipmedia_Alphavantage>
+	</modules>
+	<global>
+		<helpers>
+			<Alphavantage>
+				<class>Flipmedia_Alphavantage_Helper</class>
+			</Alphavantage>
+		</helpers>
+		<models>
+  			<Alphavantage>
+  				<class>Flipmedia_Alphavantage_Model</class>
+  			</Alphavantage>
+		</models>
+		<currency>
+			<import>
+				<services>
+					<Alphavantage>
+						<name>Alphavantage</name>
+						<model>Flipmedia_Alphavantage_Model_Currency</model>
+					</Alphavantage>
+				</services>
+			</import>
+		</currency>
+	</global>
+</config>

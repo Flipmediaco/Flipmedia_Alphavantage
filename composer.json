@@ -1,0 +1,9 @@
+{
+    "name":"Flipmedia/alphavantage",
+    "license": "GPLv3",
+    "type": "magento-module",
+    "description":"Alphavantage converter",
+    "require": {
+        "magento-hackathon/magento-composer-installer":"*"
+    }
+}

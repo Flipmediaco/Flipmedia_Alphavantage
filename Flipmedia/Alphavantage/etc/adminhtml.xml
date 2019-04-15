@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<config>
+		<acl>
+	        <resources>
+	            <admin>
+	                <children>
+	                    <system>
+	                        <children>
+	                            <config>
+	                                <children>
+	                                    <alphavantage module="Alphavantage">
+											<title>Alphavantage API</title>
+	                                    </alphavantage>
+	                                </children>
+	                            </config>
+	                        </children>
+	                    </system>
+	                </children>
+	            </admin>
+	         </resources>
+	    </acl>
+         <translate>
+            <modules>
+                <Flipmedia_Alphavantage>
+                    <files>
+                        <default>Flipmedia_Alphavantage.csv</default>
+                    </files>
+                </Flipmedia_Alphavantage>
+            </modules>
+        </translate>
+</config>
